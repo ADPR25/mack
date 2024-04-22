@@ -260,17 +260,20 @@ nav ul {
   list-style-type: none;
 }
 
+li{
+  margin-top: -50px;
+}
 .li1 {
-  width: 70%;
+  width: 60%;
   position: relative;
 }
 
 .li2 {
-  width: 15%;
+  width: 20%;
 }
 
 .li3 {
-  width: 10%;
+  width: 20%;
 }
 
 .fondo {
@@ -470,6 +473,9 @@ footer {
     list-style-type: none;
   }
 
+  li{
+    margin-top: -5px;
+  }
   .li1 {
     width: 50%;
     position: relative;
@@ -574,5 +580,63 @@ footer {
     margin-top: 20px;
   }
   
+}
+
+@media screen and (max-width: 1050px) {
+  .template {
+    width: 100%;
+  }
+  .info_img{
+    width: 110%;
+  }
+  li{
+    margin-top: -3%;
+  }
+  nav{
+    height: 70px;
+  }
+  .li2{
+    width: 20%
+  }
+  .li3{
+    width: 20%
+  }
+  .texto1{
+    font-size: 20px;
+  }
+  .lar{
+    font-size:18px;
+  }
+  .seccion1{
+    width: 100%;
+    margin-top: 10%;
+  }
+  .gorra{
+    left: 10px;
+  }
+  .txt{
+    width: 50%;
+  }
+  .formulario{
+    left: 20%;
+  }
+  footer{
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .footertext {
+    margin-top: 20%;
+    width: 100%;
+    text-align: center;
+    font-size: 10px;
+    position: relative; 
+  }
+
+  .icons_footer{
+    width: 100%;
+    left: -45%;
+    margin-top: 20px;
+  }
 }
 </style>
