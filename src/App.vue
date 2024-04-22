@@ -40,7 +40,7 @@
         <h1>
           <center>REGISTRATE Y GANA</center>
         </h1>
-        <p>
+        <p class="description">
           <center>
             Los datos registrados deben pertenecer a la persona que figura en la tarjeta de propiedad del vehículo
             MACK;
@@ -156,16 +156,17 @@
 
 
           <v-row no-gutters>
-            <v-col sm="2" cols="5">
-              <v-checkbox label="Acepto" required></v-checkbox>
+            <v-col cols="4" sm="5">
+                <v-checkbox label="Acepto" required></v-checkbox>
             </v-col>
-            <v-col sm="2" cols="5">
-              <v-checkbox label="No acepto" required></v-checkbox>
+            <v-col cols="8" sm="5">
+                <v-checkbox label="No acepto" required></v-checkbox>
             </v-col>
-          </v-row>
+        </v-row>
+        
 
           <v-row no-gutters>
-            <v-col cols="12" sm="9">
+            <v-col cols="10" sm="9">
               <v-btn style="width: 100%;">
                 Enviar
               </v-btn>
@@ -259,7 +260,10 @@ nav ul {
   width: 100%;
   list-style-type: none;
 }
-
+.checkbox{
+  position: relative;
+  width: 100%;
+}
 li{
   margin-top: -50px;
 }
@@ -432,6 +436,10 @@ v-row {
 
 footer {
   background-color: #84754E;
+}
+
+.description{
+  width: 90%;
 }
 
 .footertext {
@@ -638,5 +646,70 @@ footer {
     left: -45%;
     margin-top: 20px;
   }
+}
+
+@media screen and (max-width: 430px) {
+  .template {
+    width: 100%;
+  }
+  .info_img{
+    width: 100%;
+  }
+  li{
+    margin-top: -3%;
+  }
+  nav{
+    height: 70px;
+  }
+  .li2{
+    width: 20%
+  }
+  .li3{
+    width: 20%
+  }
+  .texto1{
+    font-size: 20px;
+  }
+  .lar{
+    font-size:18px;
+  }
+  .seccion1{
+    width: 100%;
+  }
+  .gorra{
+    left: 10px;
+  }
+  .txt{
+    width: 50%;
+  }
+  .formulario{
+    left: 2%;
+  }
+  footer{
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .footertext {
+    margin-top: 20%;
+    width: 100%;
+    text-align: center;
+    font-size: 10px;
+    position: relative; 
+  }
+
+  .icons_footer{
+    width: 100%;
+    left: -45%;
+    margin-top: 20px;
+  }
+  .texto1{
+    width: 90%;
+    font-size: 15px;
+  }
+}
+
+@media screen and (max-width: 810px) {
+
 }
 </style>
