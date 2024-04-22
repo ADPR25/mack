@@ -177,9 +177,11 @@ footer {
         height: 40%;
     }
 
-    .titulo {
-        font-size: 18px;
-        margin-left: 15%; 
+    .titulo b {
+        justify-content: center;
+        margin-left: -50%;
+        font-size: 20px; 
+        width: 100%;
         margin-top: -55%; 
     }
 
@@ -187,12 +189,13 @@ footer {
         font-size: 7px; 
         left: 13%;
         width: 60%;
-        margin-top: -47%;
+        margin-top: -40%;
     }
 
     .img_f {
         margin-top: -37%;
         margin-left: -10%;
+        width: 70%;
     }
 
     .img_f_intro {
@@ -204,6 +207,10 @@ footer {
         margin-top: -25%; 
         width: 90%; 
         left: 5%;
+    }
+
+    .red p {
+        font-size: 10px;
     }
 
     .img_g {
